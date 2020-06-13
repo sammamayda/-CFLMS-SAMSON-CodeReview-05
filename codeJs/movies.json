@@ -1,0 +1,25 @@
+var movies = `[{
+    "image": "./img/queen.jpg",
+    "title": "Queen of South",
+    "discription": "Is an American crime drama television series developed by M.A. Fortin and Joshua John Miller. The series premiered on June 23, 2016, on USA Network"
+}, {
+    "image": "./img/pray_.jpg",
+    "title": "Eat Pray Love",
+    "discription": "is a 2010 American biographical romantic drama film starring Julia Roberts as Elizabeth Gilbert, based on Gilbert's 2006 memoir of the same name. Ryan Murphy co-wrote and directed the film, which was released in the United States on August 13, 2010"
+}, {
+    "image": "./img/merlin.jpg",
+    "title": "Merlin",
+    "discription": "Merlin is a reimagining of the legend; in it, the future King Arthur and Merlin are young contemporaries, as differentiated from the traditional stories in which Merlin is an older adviser to the young prince/king"
+}, {
+    "image": "./img/badlnds.jpg",
+    "title": "Into the badlands",
+    "discription": "Is an American television series that premiered on November 15, 2015, on AMC.[1] The series follows a warrior and a young boy who journey through a dangerous feudal land together seeking enlightenment"
+}, {
+    "image": "./img/cena.png",
+    "title": "The Wall",
+    "discription": "During the Iraq War, U.S. Army Staff Sergeant Shane Matthews (John Cena) is a sniper who is sent to investigate a pipeline construction site in the desert of the country, with his spotter, Sergeant Allen Isaac"
+}, {
+    "image": "./img/hyena.jpg",
+    "title": "Heyna Road",
+    "discription": "The film is based on the true story of Route Hyena being built in 2010-2011 by a Quebec-based task force assembled around 1st Battalion Royal 22e Régiment, with tanks from 12e Régiment Blindé du Canada and Canadian combat engineers"
+}]`;

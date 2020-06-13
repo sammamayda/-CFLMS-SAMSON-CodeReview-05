@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="code5.css" />
+    <script src="codeJs/movies.json"></script>
+    <title>Movie@Studio</title>
+</head>
+
+<body>
+    <header>
+        <div class="text">
+            <h1>Movie Factory</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="#">Home</a>
+        </ul>
+    </nav>
+    <main>
+        <div class="contents">
+            <div class="propert">
+                <h2>Movies <select name="sort" id="sort">
+                    <option value=" sort">sort</option>
+                    <option value=" Series">Series</option>
+                    <option value="Movie ">movies</option>
+                    <option value="drama ">Drama</option>
+                    <option value="Fiction ">Fiction</option>
+                    </select>
+                </h2>
+            </div>
+        </div>
+
+        <div id="moviesInfo">
+            <div class="like grow">
+                <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h3>Movie Factory</h3>
+    </footer>
+    <script type="text/javascript" src="codeJs/script.js"></script>
+</body>
+
+</html>
