@@ -16,10 +16,10 @@ $(document).ready(function() {
 									<h4>  ${movies[i].title} </h4>
 									<br>
 									<p class="description"> ${movies[i].discription}</p>
-								</div>
+								</div><br><br><br>
 								<div class="movieLikeContainer">
 									<div class="movieLikeCounter"> 
-										<p class="movieLike">Like</p>
+										<p1 class="movieLike">Like</p1>
 										<div class="like grow">
                                           <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
                                         </div>
