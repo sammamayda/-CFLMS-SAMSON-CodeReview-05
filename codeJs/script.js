@@ -19,11 +19,11 @@ $(document).ready(function() {
 								</div><br><br><br>
 								<div class="movieLikeContainer">
 									<div class="movieLikeCounter"> 
-										<p1 class="movieLike">Like</p1>
-										<div class="like grow">
-                                          <i class="fa fa-thumbs-up fa-3x like" aria-hidden="true"></i>
-                                        </div>
-									</div>
+										<button class="movieLike"><i class="fa fa-thumbs-up"></i></button>
+                                       <div class="like count">${movies[i].like}</div>
+                                         
+                                           
+									
 									<div>
 										<div class="counterBox"></div>
 									</div> 
@@ -33,4 +33,10 @@ $(document).ready(function() {
 
         $('#moviesInfo').append(movie);
     }
+    $(".movieLike").on("click", function() {
+
+        var lock = $(this).siblings(".like");
+        lock.text(parseInt(lock.text()) + 1);
+
+    })
 });
